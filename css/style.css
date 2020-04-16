@@ -114,3 +114,6 @@ a {
     text-transform: uppercase;
 }
 
+.home-cards a:hover i {
+    margin-left: 10px;
+}
