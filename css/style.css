@@ -80,7 +80,7 @@ a {
     align-items: center;
     text-align: center;
     padding-bottom: 50px;
-    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .showcase h2, .showcase p {
     margin-bottom: 15px;
@@ -88,4 +88,32 @@ a {
 
 .showcase .btn {
     margin-top: 20px;
+}
+
+/* Home cards */
+.home-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.home-cards img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.home-cards h3 {
+    margin-bottom: 10px;
+}
+
+.home-cards a {
+    display: inline-block;
+    font-weight: bold;
+    color: #0067b8;
+    padding: 10px 0;
+    text-transform: uppercase;
+}
+
+.home-cards a:hover i {
+    margin-left: 10px;
 }
