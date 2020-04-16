@@ -26,12 +26,21 @@ a {
     text-decoration: none;
 }
 
+.btn {
+   background-color: #262626;
+   color: #fff;
+   padding: 10px 20px;
+   cursor: pointer;
+   border: none;
+   display: inline-block;
+}
+
 /* Main Nav */
 .main-nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 20px;
+    margin: 20px 0;
     font-size: 13px;
 }
 
@@ -45,6 +54,7 @@ a {
 
 .main-nav ul.main-menu {
     flex: 1;
+    margin-left: 20px;
 }
 
 .main-nav ul li {
@@ -56,4 +66,26 @@ a {
 
 .main-nav ul li a:hover {
     border-bottom: 2px solid #262626;
+}
+
+/* Showcase */
+.showcase {
+    width: 100%;
+    height: 400px;
+    background: url("../img/slide1.png")
+    no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+.showcase h2, .showcase p {
+    margin-bottom: 15px;
+}
+
+.showcase .btn {
+    margin-top: 20px;
 }
