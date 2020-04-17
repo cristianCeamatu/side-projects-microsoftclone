@@ -289,11 +289,12 @@ a {
         top:0;
         left: 0;
         height: 100%;
-        background: #f1f0eb;
+        background: #f2f2f2;
+        border-right: #ccc 1px solid;
         transform: translateX(-500px);
         opacity: 0.9;
         padding: 30px 30px;
-        width: 250px;
+        width: 50%;
         transition: transform 0.5s ease-in-out;
     }
 
@@ -304,8 +305,8 @@ a {
     .main-nav ul.main-menu li{
         margin: 15px 0;
         padding-bottom: 10px;
-        border-bottom: 1px solid #c4c0b7;
-        color: #000000;
+        border-bottom: 1px solid #ccc;
+        font-size: 14px;
     }
 
     .main-nav ul.main-menu li:last-child {
