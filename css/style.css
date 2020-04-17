@@ -36,6 +36,10 @@ a {
    font-weight: bold;
 }
 
+.btn:hover {
+    opacity: 0.9;
+}
+
 .dark .btn {
     background-color: #fff;
     color: #262626;
@@ -167,3 +171,78 @@ a {
     margin: 10px 0 20px;
 }
 
+/* Social */
+.social {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 30px 0;
+}
+
+.social p {
+    margin-right: 10px;
+}
+
+.social ul {
+    display: flex;
+}
+
+.social ul li {
+    margin-right: 20px;
+}
+
+/* Links */
+.links {
+    background: #e3e1dc;
+    font-size: 12px;
+    color: #565656;
+    line-height: 2.8;
+}
+
+.links .links-inner {
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* Footer */
+.footer {
+    background: #e3e1dc;
+    font-size: 12px;
+    color: #565656;
+    line-height: 2.8;
+    padding-bottom: 40px;
+}
+
+.footer .footer-inner {
+    max-width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+.footer .footer-inner div {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.footer .footer-inner div i {
+    margin-right: 10px;
+}
+
+.footer .footer-inner ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer .footer-inner ul li {
+    margin-right: 30px;
+}
