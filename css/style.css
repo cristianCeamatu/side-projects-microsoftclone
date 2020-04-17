@@ -113,7 +113,7 @@ a {
 }
 
 .home-cards img {
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -321,9 +321,6 @@ a {
 @media(max-width: 500px) {
     .home-cards {
         grid-template-columns: 1fr;
-    }
-    .home-cards img {
-        width: 100%;
     }
 
     .links .links-inner {
