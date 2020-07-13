@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Microsoft home page clone side project
+# Microsoft homepage clone side project
 
 > The project is clone of the Microsoft homepage build as a side project.
 
